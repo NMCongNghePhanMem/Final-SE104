@@ -38,7 +38,8 @@ namespace QuanLyKhachSan
         private void msQuanLyPhong_Click(object sender, EventArgs e)
         {
             DanhMucPhong formDanhMucPhong = new DanhMucPhong();
-            formDanhMucPhong.ShowDialog();
+            formDanhMucPhong.Show();
+            formDanhMucPhong.ShowInTaskbar = false;
         }
 
         private void msTaoPTP_Click(object sender, EventArgs e)

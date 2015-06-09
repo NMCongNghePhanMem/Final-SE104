@@ -212,9 +212,10 @@
             // 
             this.pb_Hotel.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pb_Hotel.BackgroundImage")));
             this.pb_Hotel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pb_Hotel.Location = new System.Drawing.Point(0, 27);
+            this.pb_Hotel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pb_Hotel.Location = new System.Drawing.Point(0, 29);
             this.pb_Hotel.Name = "pb_Hotel";
-            this.pb_Hotel.Size = new System.Drawing.Size(650, 358);
+            this.pb_Hotel.Size = new System.Drawing.Size(650, 355);
             this.pb_Hotel.TabIndex = 2;
             this.pb_Hotel.TabStop = false;
             // 
@@ -227,11 +228,12 @@
             this.Controls.Add(this.pb_Hotel);
             this.Controls.Add(this.msQuanLyKhachSan);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.IsMdiContainer = true;
             this.MaximizeBox = false;
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "QUẢN LÝ KHÁCH SẠN";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MainForm_FormClosing);
             this.msQuanLyKhachSan.ResumeLayout(false);
             this.msQuanLyKhachSan.PerformLayout();
