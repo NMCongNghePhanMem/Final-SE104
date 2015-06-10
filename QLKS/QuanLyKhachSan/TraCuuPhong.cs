@@ -110,14 +110,14 @@ namespace QuanLyKhachSan
                     break;
                 case "dưới 150k":
                     GiaTu = 0;
-                    GiaDen = 150;
+                    GiaDen = 150000;
                     break;
                 case "150k->170k":
-                    GiaTu = 150;
-                    GiaDen = 170;
+                    GiaTu = 150000;
+                    GiaDen = 170000;
                     break;
                 case "trên 170k":
-                    GiaTu = 171;
+                    GiaTu = 171000;
                     GiaDen = DON_GIA_CAO_NHAT;
                     break;
             }
